@@ -141,18 +141,18 @@ export default function Navbar() {
           >
             <DropdownMenuItem asChild>
               <Link
-                href="https://www.bfmacademy.in/event-archive"
-                className="block rounded px-4 py-2 text-sm text-zinc-800 hover:bg-zinc-100 dark:text-zinc-200 dark:hover:bg-zinc-800"
-              >
-                Event Archive
-              </Link>
-            </DropdownMenuItem>
-            <DropdownMenuItem asChild>
-              <Link
                 href="https://www.bfmacademy.in/networking"
                 className="block rounded px-4 py-2 text-sm text-zinc-800 hover:bg-zinc-100 dark:text-zinc-200 dark:hover:bg-zinc-800"
               >
                 Future Xcon
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem asChild>
+              <Link
+                href="https://www.bfmacademy.in/event-archive"
+                className="block rounded px-4 py-2 text-sm text-zinc-800 hover:bg-zinc-100 dark:text-zinc-200 dark:hover:bg-zinc-800"
+              >
+                Event Archive
               </Link>
             </DropdownMenuItem>
           </DropdownMenuContent>
